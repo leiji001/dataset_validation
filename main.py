@@ -16,7 +16,7 @@ def _is_interactive() -> bool:
 # ── Alpaca 格式定义 ──────────────────────────────────────────────────────────
 
 REQUIRED_FIELDS = {"instruction", "output"}
-OPTIONAL_FIELDS = {"input"}
+OPTIONAL_FIELDS = {"input", "system"}
 ALL_KNOWN_FIELDS = REQUIRED_FIELDS | OPTIONAL_FIELDS
 
 
